@@ -18,7 +18,7 @@ import (
 	"fmt"
 )
 
-//O(n) solution
+//O(n^2) solution
 func containsDuplicate(nums []int) bool {
 	for i := 0; i < len(nums)-1; i++ {
 		for j := i + 1; j < len(nums); j++ {
